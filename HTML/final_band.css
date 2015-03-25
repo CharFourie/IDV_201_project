@@ -1,0 +1,38 @@
+.schedule{
+    background-color: #FFE1B1;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+}
+
+h2{
+    padding-bottom: 2%;
+}
+
+.content img{
+    float: right;
+    height: 400px;
+}
+
+.content{
+    background: #080f15 url(Style/planet2_half_opacity.png) right no-repeat;
+    height: 450px;
+}
+
+.box{
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    width: auto;
+}
+
+.box img{
+    height: 300px;
+    width: auto;
+}
+
+.box ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}

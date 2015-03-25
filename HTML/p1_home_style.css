@@ -1,0 +1,31 @@
+.tickets img{
+    width: 300px;
+    height: 300px;
+    -webkit-transition-property: width, height;
+    -webkit-transition-duration: 2s;
+    transition-property: width, height;
+    transition-duration: 2s;
+    opacity: 0.3;
+}
+
+.tickets img:hover{
+    width: 350px;
+    height: 350px;
+    opacity: 1;
+}
+
+.special img{
+    width: 350px;
+    height: 350px;
+    -webkit-transition-property: width, height;
+    -webkit-transition-duration: 2s;
+    transition-property: width, height;
+    transition-duration: 2s;
+    opacity: 0.3;
+}
+
+.special img:hover{
+    width: 400px;
+    height: 400px;
+    opacity: 1;
+}

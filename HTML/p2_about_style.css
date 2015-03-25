@@ -1,0 +1,19 @@
+.about{
+    background-color: #FFE1B1;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+}
+
+.content img{
+    float: left;
+    height: 500px;
+}
+
+.content{
+    background: #080f15 url(Style/planet1_half_opacity.png) left no-repeat;
+}
+
+.photo{
+    background: url(Style/Photos/festival.jpg) left no-repeat;
+    height: 420px;
+}

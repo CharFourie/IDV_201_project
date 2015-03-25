@@ -1,0 +1,159 @@
+/* -----BODY STYLES----- */
+body {
+  font: 100% Helvetica, sans-serif;
+  background: #080f15 url(Style/stars.jpg) top right repeat;
+  padding: 0px;
+  margin: 0px; }
+
+/* -----HEADER STYLES----- */
+.header {
+  border-bottom: #8b8e8e solid 10px; }
+
+.planet img {
+  float: right;
+  margin-top: 0px;
+  padding-top: 0px;
+  width: auto;
+  height: 350px; }
+
+h1 {
+  font: 200px Impact, Charcoal, sans-serif;
+  color: #babcbc;
+  text-align: center;
+  margin: 0px auto 0px auto;
+  padding: 0px; }
+
+h3 {
+  font: 30px "Courier New", Courier, monospace;
+  color: #ffffff;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  margin: 0px auto 0px auto; }
+
+.odyssey h1 {
+  font-size: 200px;
+  -webkit-transition-property: font;
+  -webkit-transition-duration: 3s;
+  transition-property: font;
+  transition-duration: 3s; }
+
+.odyssey h1:hover {
+  font-size: 300px; }
+
+/* -----NAVIGATION STYLES----- */
+.navigation {
+  font: 16px Impact, Charcoal, sans-serif; }
+  .navigation ul {
+    text-align: center;
+    background-color: #ffc164;
+    padding: 10px 0px 10px 0px;
+    margin: 0px; }
+    .navigation ul li {
+      display: inline;
+      margin: 0px auto 0px auto; }
+
+a {
+  font: Helvetica, sans-serif;
+  color: #080f15;
+  text-decoration: none; }
+
+.navigation a:link {
+  padding: 10px 10px 10px 10px; }
+
+.navigation a:hover {
+  background-color: #FFE1B1;
+  padding: 10px 10px 10px 10px; }
+
+.navigation a:active {
+  background-color: #ffffff;
+  padding: 10px 10px 10px 10px; }
+
+/* -----CONTENT STYLES----- */
+h2 {
+  font: 40px "Courier New", Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  padding: 0;
+  margin: 0; }
+
+h4 {
+  font: 20px "Courier New", Courier, monospace;
+  color: #ffffff;
+  text-align: center;
+  padding: 0px;
+  margin: 0px; }
+
+h6 {
+  font: 18px Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0; }
+
+p {
+  font: Helvetica, sans-serif;
+  color: #000000;
+  text-align: left; }
+
+.content {
+  background-color: #080f15;
+  margin: 0px;
+  padding: 0px; }
+
+.box {
+  background-color: #8b8e8e;
+  padding: 2% 5% 2% 5%; }
+
+.rounded-box-detail {
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  border-radius: 25px;
+  background: url(Style/boxopacity.png) top right repeat;
+  padding: 3% 5% 3% 5%;
+  margin: 2%; }
+
+/* -----FOOTER STYLES----- */
+.footer {
+  font: 14px Helvetica, sans-serif;
+  color: #8b8e8e;
+  text-align: center;
+  background-color: #31465d;
+  border-top: #8b8e8e solid 10px;
+  padding-bottom: 5px; }
+  .footer ul {
+    list-style: none;
+    padding-left: 0px; }
+    .footer ul li {
+      display: inline; }
+
+.footer p {
+  color: #8b8e8e;
+  text-align: center; }
+
+.footer a {
+  text-align: center;
+  color: #8b8e8e; }
+
+.footer a:hover {
+  color: #ffffff; }
+
+/*-----BAND STYLES-----*/
+name {
+  font: 40px "Courier New", Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+  padding-left: 10%;
+  margin: 0; }
+
+#genre, #writeup, #gig {
+  font: Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+  padding: 0 2% 2% 2%; }
+
+/*# sourceMappingURL=final_style.css.map */

@@ -1,0 +1,197 @@
+.schedule{
+    background-color: #FFE1B1;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+}
+
+h2{
+    padding-bottom: 2%;
+}
+
+.content img{
+    float: left;
+    height: 500px;
+}
+
+.content{
+    background: #080f15 url(Style/planet2_half_opacity.png) right no-repeat;
+}
+
+.box{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+
+#loops{
+    font: $font-body;
+    color: $text-black;
+    text-align: center;
+    padding-top: 10%;
+    background: url(Style/Photos/loops.png) no-repeat;
+    height: 150px;
+}
+
+#loops:hover{
+    background: url(Style/Photos/loops.jpg) no-repeat;
+    height: 150px;
+    font: 0px Helvetica, sans-serif;
+}
+
+#loops:hover h6{
+    font: 0px Helvetica, sans-serif;
+}
+
+#patlansky{
+    font: $font-body;
+    color: $text-black;
+    text-align: center;
+    padding-top: 10%;
+    background: url(Style/Photos/patlansky.png) no-repeat;
+    height: 150px;
+}
+
+#patlansky:hover{
+    background: url(Style/Photos/patlansky.jpg) no-repeat;
+    height: 150px;
+    font: 0px Helvetica, sans-serif;
+}
+
+#patlansky:hover h6{
+    font: 0px Helvetica, sans-serif;
+}
+
+#casa{
+    font: $font-body;
+    color: $text-black;
+    text-align: center;
+    padding-top: 10%;
+    background: url(Style/Photos/casa.png) no-repeat;
+    height: 150px;
+}
+
+#casa:hover{
+    background: url(Style/Photos/casa.jpg) no-repeat;
+    height: 150px;
+    font: 0px Helvetica, sans-serif;
+}
+
+#casa:hover h6{
+    font: 0px Helvetica, sans-serif;
+}
+
+#ballet{
+    font: $font-body;
+    color: $text-black;
+    text-align: center;
+    padding-top: 10%;
+    background: url(Style/Photos/ballet.png) no-repeat;
+    height: 150px;
+}
+
+#ballet:hover{
+    background: url(Style/Photos/ballet.jpg) no-repeat;
+    height: 150px;
+    font: 0px Helvetica, sans-serif;
+}
+
+#ballet:hover h6{
+    font: 0px Helvetica, sans-serif;
+}
+
+#mole{
+    font: $font-body;
+    color: $text-black;
+    text-align: center;
+    padding-top: 10%;
+    background: url(Style/Photos/mole.png) no-repeat;
+    height: 150px;
+}
+
+#mole:hover{
+    background: url(Style/Photos/mole.jpg) no-repeat;
+    height: 150px;
+    font: 0px Helvetica, sans-serif;
+}
+
+#mole:hover h6{
+    font: 0px Helvetica, sans-serif;
+}
+
+#prime{
+    font: $font-body;
+    color: $text-black;
+    text-align: center;
+    padding-top: 10%;
+    background: url(Style/Photos/prime.png) no-repeat;
+    height: 150px;
+}
+
+#prime:hover{
+    background: url(Style/Photos/prime.jpg) no-repeat;
+    height: 150px;
+    font: 0px Helvetica, sans-serif;
+}
+
+#prime:hover h6{
+    font: 0px Helvetica, sans-serif;
+}
+
+#narrow{
+    font: $font-body;
+    color: $text-black;
+    text-align: center;
+    padding-top: 10%;
+    background: url(Style/Photos/narrow.png) no-repeat;
+    height: 150px;
+}
+
+#narrow:hover{
+    background: url(Style/Photos/narrow.jpg) no-repeat;
+    height: 150px;
+    font: 0px Helvetica, sans-serif;
+}
+
+#narrow:hover h6{
+    font: 0px Helvetica, sans-serif;
+}
+
+#parlotones{
+    font: $font-body;
+    color: $text-black;
+    text-align: center;
+    padding-top: 10%;
+    background: url(Style/Photos/parlotones.png) no-repeat;
+    height: 150px;
+}
+
+#parlotones:hover{
+    background: url(Style/Photos/parlotones.jpg) no-repeat;
+    height: 150px;
+    font: 0px Helvetica, sans-serif;
+}
+
+#parlotones:hover h6{
+    font: 0px Helvetica, sans-serif;
+}
+
+#straw{
+    font: $font-body;
+    color: $text-black;
+    text-align: center;
+    padding-top: 10%;
+    background: url(Style/Photos/straw.png) no-repeat;
+    height: 150px;
+}
+
+#straw:hover{
+    background: url(Style/Photos/straw.jpg) no-repeat;
+    height: 150px;
+    font: 0px Helvetica, sans-serif;
+}
+
+#straw:hover h6{
+    font: 0px Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}

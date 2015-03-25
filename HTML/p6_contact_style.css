@@ -1,0 +1,18 @@
+.content img{
+    width: auto;
+    margin: 0 auto 0 auto;
+}
+
+.banner{
+    background: url("Style/Photos/festivalstage.jpg") bottom left;
+    min-height: 290px;
+}
+
+.box{
+    min-height: 290px;
+}
+
+.box ul{
+    list-style-type: none;
+    padding: 0;
+}

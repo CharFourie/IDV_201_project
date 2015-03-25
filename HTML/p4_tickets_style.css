@@ -1,0 +1,58 @@
+.tickets{
+    background-color: #FFE1B1;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+}
+
+.content img{
+    float: right;
+    height: 500px;
+}
+
+.content{
+    background: #080f15 url(Style/planet3_half_opacity.png) right no-repeat;
+}
+
+.photo{
+    background: url(Style/Photos/music.jpg) left no-repeat;
+    height: 440px;
+}
+
+label{
+    font: 16px "Courier New", Courier, monospace;
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input{
+    display: block;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+textarea{
+    display: block;
+    margin: 10px 0px 20px 0px;
+    width: 300px;
+}
+
+select{
+    display: block;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+input[type=radio] {
+    display : inline;
+    width: 60px;
+}
+
+input[type=submit] {
+    width: 100px;
+}
+
+.radio-label {
+    display : inline;
+    font-weight: normal;
+}

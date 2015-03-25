@@ -1,0 +1,205 @@
+$font-heading: Impact, Charcoal, sans-serif;
+$font-subheading: "Courier New", Courier, monospace;
+$font-body: Helvetica, sans-serif;
+
+$background: #080f15;
+$header: #8b8e8e;
+$footer: #31465d;
+$heading: #babcbc;
+$text: #ffffff;
+$text-black: #000000;
+$content-colour: #ffc164;
+$hover: #FFE1B1;
+
+@mixin round-corners($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+/* -----BODY STYLES----- */
+body{
+    font: 100% $font-body;
+    background: $background url(Style/stars.jpg) top right repeat;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* -----HEADER STYLES----- */
+.header{
+    border-bottom: $header solid 10px;
+}
+
+.planet img{
+    float: right;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: auto;
+    height: 350px;
+}
+
+h1{
+    font: 200px $font-heading;
+    color: $heading;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+}
+
+h3{
+    font: 30px $font-subheading;
+    color: $text;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px auto 0px auto;
+}
+
+.odyssey h1{
+    font-size: 200px;
+    -webkit-transition-property: font;
+    -webkit-transition-duration: 3s;
+    transition-property: font;
+    transition-duration: 3s;
+}
+
+.odyssey h1:hover{
+    font-size: 300px;
+}
+
+/* -----NAVIGATION STYLES----- */
+.navigation {
+     font: 16px $font-heading;
+    ul {
+        text-align: center;
+        background-color: $content-colour;
+        padding: 10px 0px 10px 0px;
+        margin: 0px;
+            li {
+                display: inline;
+                margin: 0px auto 0px auto;
+            }
+    }
+}
+
+a{
+    font: $font-body;
+    color: $background;
+    text-decoration: none;
+}
+
+.navigation a:link {
+    padding: 10px 10px 10px 10px;
+}
+
+.navigation a:hover{
+    background-color: $hover;
+    padding: 10px 10px 10px 10px;
+}
+
+.navigation a:active {
+    background-color: $text;
+    padding: 10px 10px 10px 10px;
+}
+
+/* -----CONTENT STYLES----- */
+h2{
+    font: 40px $font-subheading;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h4{
+    font: 20px $font-subheading;
+    color: $text;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+h6{
+    font: 18px $font-body;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font: $font-body;
+    color: $text-black;
+    text-align: left;
+}
+
+.content{
+    background-color: $background;
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    background-color : $header;
+    padding: 2% 5% 2% 5%;
+}
+
+.rounded-box-detail{
+    @include round-corners(25px);
+    background: url(Style/boxopacity.png) top right repeat;
+    padding: 3% 5% 3% 5%;
+    margin: 2%;
+}
+
+/* -----FOOTER STYLES----- */
+.footer{
+    font: 14px $font-body;
+    color: $header;
+    text-align: center;
+    background-color: $footer;
+    border-top: $header solid 10px;
+    padding-bottom: 5px;
+  ul {
+    list-style : none;
+    padding-left: 0px;
+      
+    li {
+      display : inline;
+    }
+  }
+}
+
+.footer p{
+    color: $header;
+    text-align: center;
+}
+
+.footer a{
+    text-align: center;
+    color: $header;
+}
+
+.footer a:hover{
+    color: $text;
+}
+
+/*-----BAND STYLES-----*/
+name{
+    font: 40px $font-subheading;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 10%;
+    margin: 0;
+}
+
+#genre, #writeup, #gig{
+    font: $font-body;
+    color: $text-black;
+    text-align: center;
+    padding: 0 2% 2% 2%;
+}
+    
